@@ -33,11 +33,13 @@ mobile_traffic_analysis/
 
 The dataset is from Telecom Italia Mobile (TIM) and contains mobile network traffic information for Milan, organized in a 100×100 grid (10,000 areas) over two months.
 
+**Note:** The raw data files (17GB total) are not included in this repository due to size limitations. Please download them from the source.
+
 **Download links:**
 - Telecommunications activity dataset: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EGZHFV
 - Grid dataset: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QJWLFU
 
-Place the downloaded files in the `data/` directory.
+Place the downloaded files in the `data/` directory. Only `milano-grid.geojson` is included in the repository.
 
 ## Installation
 
