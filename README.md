@@ -4,7 +4,7 @@ This project implements a comprehensive time series analysis and forecasting sys
 
 ## Video Demonstration
 
-[Video Link Placeholder]
+[youtube video Link]
 
 ## Project Overview
 
