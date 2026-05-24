@@ -4,7 +4,7 @@ This project implements a comprehensive time series analysis and forecasting sys
 
 ## Video Demonstration
 
-[youtube video Link]
+[https://youtu.be/Zz4ZSNNpGRk]
 
 ## Project Overview
 
@@ -43,10 +43,11 @@ Place the downloaded files in the `data/` directory. Only `milano-grid.geojson` 
 
 ## Installation
 
+### Windows
 1. Create a virtual environment:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 2. Install dependencies:
@@ -54,26 +55,75 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Usage
-
-### Task 1: Data Loading and Memory Management
+### Linux / macOS
+1. Create a virtual environment:
 ```bash
-python scripts/task1_data_loading.py
+python3 -m venv venv
+source venv/bin/activate
 ```
 
-### Task 2: Exploratory Data Analysis
+2. Install dependencies:
 ```bash
-python scripts/task2_eda.py
+pip install -r requirements.txt
 ```
 
-### Task 3: Forecasting Models
+## Running the Prediction Algorithm
+
+### Prerequisites
+- Download the dataset from Harvard Dataverse (links below)
+- Place `sms-call-internet-mi-*.txt` files in the `data/` directory
+- The minimum data needed: at least 3 days of data for single-area forecasting
+
+### Windows
 ```bash
+# Activate virtual environment
+venv\Scripts\activate
+
+# Run forecasting for specific area
 python scripts/task3_forecasting.py
+
+# Or run complete pipeline
+python scripts/run_all.py
 ```
 
-Or run the complete pipeline:
+### Linux / macOS
 ```bash
-python scripts/run_all.py
+# Activate virtual environment
+source venv/bin/activate
+
+# Run forecasting for specific area
+python3 scripts/task3_forecasting.py
+
+# Or run complete pipeline
+python3 scripts/run_all.py
+```
+
+### Individual Tasks
+**Task 1: Data Loading and Memory Management**
+```bash
+# Windows
+python scripts/task1_data_loading.py
+
+# Linux / macOS
+python3 scripts/task1_data_loading.py
+```
+
+**Task 2: Exploratory Data Analysis**
+```bash
+# Windows
+python scripts/task2_eda.py
+
+# Linux / macOS
+python3 scripts/task2_eda.py
+```
+
+**Task 3: Forecasting Models**
+```bash
+# Windows
+python scripts/task3_forecasting.py
+
+# Linux / macOS
+python3 scripts/task3_forecasting.py
 ```
 
 ## Results
