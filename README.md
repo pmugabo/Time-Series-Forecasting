@@ -2,10 +2,6 @@
 
 This project implements a comprehensive time series analysis and forecasting system for mobile network traffic data from Milan, Italy (November-December 2013).
 
-## Video Demonstration
-
-[https://youtu.be/Zz4ZSNNpGRk]
-
 ## Project Overview
 
 - **Dataset**: 10,000 geographical areas (100×100 grid), 2 months of data at 10-minute intervals
